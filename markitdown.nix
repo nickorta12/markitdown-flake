@@ -8,7 +8,7 @@ let
 in
 python3.pkgs.buildPythonApplication rec {
   pname = "markitdown";
-  version = "0.0.1a4";
+  version = "0.1.0a6";
   pyproject = true;
 
   src = fetchFromGitHub {
